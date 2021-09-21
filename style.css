@@ -77,15 +77,16 @@ body {
   color: #18171d;
 }
 ::placeholder {
-  /* font-family: Roboto-Regular, sans-serif; */
+  font-family: Roboto-Regular, sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  /* font-size: 14px; */
   line-height: 16px;
   letter-spacing: 0.1px;
   color: #18171d;
 }
 .header__button {
+  margin-left: 12px;
   background: #ffffff;
   padding: 19px 38px;
   box-sizing: border-box;
@@ -130,7 +131,7 @@ body {
   margin-bottom: 27px;
 }
 .main__subtitle {
-  font-family: Roboto;
+  font-family: Roboto-Bold, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -753,9 +754,9 @@ body {
   border-radius: 39px;
   font-style: normal;
   font-weight: normal;
-  font-size: 9.80565px;
+  font-size: 10px;
   line-height: 10px;
-  letter-spacing: 0.065371px;
+  letter-spacing: 0.1px;
   color: #18171d;
   padding: 12px;
   margin-bottom: 30px;
@@ -772,7 +773,7 @@ body {
   font-weight: normal;
   font-size: 10px;
   line-height: 10px;
-  letter-spacing: 0.065371px;
+  letter-spacing: 0.1px;
   color: #18171d;
   outline: 0;
   resize: none;
